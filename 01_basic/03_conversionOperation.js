@@ -23,6 +23,15 @@ let valueInScore=Number(score);
 
 let someNum=33;
 let stringNum=String(someNum);
-console.log(stringNum);
-console.log(typeof stringNum);
+// console.log(stringNum);
+// console.log(typeof stringNum);
 
+// operations...........................................::::
+
+// let value =33;
+// let negValue=-value;
+// console.log(negValue);
+
+let  a=2;
+const b=++a;
+console.log(b);
