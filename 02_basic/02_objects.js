@@ -24,7 +24,7 @@ const bio_data={
 // console.log(bio_data);
 
 // // by using method 'freeze' u can lock values of an object 
-Object.freeze(bio_data);
+// Object.freeze(bio_data);
 
 // bio_data.age=23;
 // console.log(bio_data);
