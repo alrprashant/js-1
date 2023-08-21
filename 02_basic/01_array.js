@@ -45,9 +45,47 @@ myArr.shift();
 
 // console.log("a",myArr);
 
-const myArr3=[1,2,3,4,5];
-const myn1=myArr3.slice(1,3);
-console.log(myn1);
+// const myArr3=[1,2,3,4,5];
+// const myn1=myArr3.slice(1,3);
+// console.log(myn1);
+
+
+
+// **spread element 
+// **spread is used to separate all the elements of an array
+// 
+// const abc1=['qwe','rty','uio','pas','dfg'];
+// console.log(...abc1);
+// const zxy1=['qwe','rty','uio','pas','dfg'];
+// console.log(...zxy1);
+
+// **We can also use spread to join two arrays
+
+// const sdf1=[...abc1,...zxy1];
+// console.log(sdf1);
+
+// flat 
+
+// const first_array=[2,3,4,[3,4,5,6],[6,7,8,[7,8,9]]];
+// const real_array=first_array.flat(infinity)  // here infinity used to tell depth till we want to do flat the array we can also use a number 
+// console.log(real_array)
+
+// ** important methods 
+
+// **isArray
+console.log(Array.isArray("baby"));
+// **from
+console.log(Array.from("baby"));
+
+
+
+
+
+
+
+
+
+
 
 
 
