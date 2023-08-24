@@ -40,11 +40,12 @@ map1.set('Fr',"France");
 // if we gonna to try insert duplicate key it will't work
 map1.set('IN',"india");
 // console.log(map1);
-
+map1.get("IN");
+console.log(map1.get("IN"));
 
 // how to use for of loop in map 
 for (const [key,value]  of map1 ) {
-    console.log(key," ",value);
+    // console.log(key," ",value);
     
 }
 
