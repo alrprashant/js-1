@@ -80,7 +80,7 @@ buttons.forEach(function (button) {
 });
 
 ```
-##project2
+## project2
 
 ```html
 <!DOCTYPE html>
