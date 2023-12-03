@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>async</title>
+</head>
+<body>
+    <h1> background changer </h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // generate random color
+  const randomColor=function(){
+    const hex='0123456789ABCDEF';
+    let color='#';
+    for(let i=0;i<6;i++){
+        color+=hex[Math.floor(Math.random()*16)]
+        // console.log(color);
+    }
+    return color;
+  }
+//   randomColor();
+  const body=document.querySelector('body');
+//   console.log(body);
+let intervalId;
+document.querySelector("#start").addEventListener("click",function(){
+   intervalId=setInterval(function(){
+    body.style.backgroundColor=randomColor();
+   },1000);
+})
+document.querySelector("#stop").addEventListener("click",function(){
+    clearInterval(intervalId)
+})
+
+
+
+
+
+
+    
+</script>
+
+
+</html>    
